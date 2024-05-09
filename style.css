@@ -17,6 +17,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 16px;
@@ -31,6 +32,7 @@ body {
 }
 
 .container {
+    margin-top: 5em;
     background-color: #282727;
     padding: 2em;
     border-radius: 8px;
@@ -135,3 +137,20 @@ body {
 .payment-details span{
     color: var(--pink);
 }
+
+.download{
+    padding: 3em;
+}
+
+.download button{
+    font-weight: 700;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.download button:active{
+    background-color: var(--pink);
+}
+

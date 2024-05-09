@@ -46,3 +46,19 @@ function UpdateCount() {
 
   totalPrice.textContent = selectedSeatCount * ticketPrice;
 }
+
+// adding source code download link
+
+window.addEventListener("DOMContentLoaded", () => {
+  document.querySelector(".download").addEventListener("click", () => {
+    const zipUrl = "Movie Ticket Booking.zip";
+
+    const downloadLink = document.createElement("a");
+    downloadLink.href = zipUrl;
+    downloadLink.setAttribute("download", "Movie Ticket Booking.zip");
+
+    downloadLink.click();
+
+    downloadLink.remove();
+  });
+});
