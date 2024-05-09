@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="movie-select">
+        <label>Pick a movie:</label>
+        <select>
+          <option value="400">Prestige (400)</option>
+          <option value="300">insomia (300)</option>
+          <option value="500">tenet (500)</option>
+          <option value="200">the Pale Bule eye (200)</option>
+          <option value="250">Parasite (250)</option>
+          <option value="300">the Imitation Game (300)</option>
+        </select>
+      </div>
+      <div class="select-info">
+        <ul>
+          <li>
+            <div class="seats"></div>
+            <small>N/A</small>
+          </li>
+          <li>
+            <div class="seats selected"></div>
+            <small>selected</small>
+          </li>
+          <li>
+            <div class="seats occupied"></div>
+            <small>Occupied</small>
+          </li>
+        </ul>
+      </div>
+
+      <div class="screen"></div>
+      <div class="seat-container">
+        <div class="seat-column">
+          <div class="seats "></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+        </div>
+        <div class="seat-column">
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+        </div>
+        <div class="seat-column">
+          <div class="seats" ></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+        </div>
+        <div class="seat-column">
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+        </div>
+        <div class="seat-column">
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+        </div>
+        <div class="seat-column">
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+        </div>
+        <div class="seat-column">
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+        </div>
+        <div class="seat-column">
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+          <div class="seats"></div>
+        </div>
+      </div>
+
+      <div class="payment-details">
+        <p>
+          You have selected <span id="seat-count">0</span> for a price of
+          <span id="total-price">0</span>
+        </p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
